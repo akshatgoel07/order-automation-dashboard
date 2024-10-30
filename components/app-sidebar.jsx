@@ -15,7 +15,7 @@ import {
 const items = [
 	{
 		title: "Home",
-		url: "#",
+		url: "/",
 		icon: Home,
 	},
 	{
@@ -28,16 +28,6 @@ const items = [
 		url: "business-dashboard",
 		icon: Calendar,
 	},
-	// {
-	// 	title: "Search",
-	// 	url: "#",
-	// 	icon: Search,
-	// },
-	// {
-	// 	title: "Settings",
-	// 	url: "#",
-	// 	icon: Settings,
-	// },
 ];
 
 export function AppSidebar() {
