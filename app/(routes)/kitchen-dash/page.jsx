@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const Page = () => {
+	console.log("Kitchen Dashboard rendering");
 	const [orders, setOrders] = useState([
 		{
 			tableNumber: 5,
@@ -59,9 +60,9 @@ const Page = () => {
 	return (
 		<div className="p-6 max-w-6xl mx-auto">
 			<div className="space-y-6">
-				<div className="flex items-center justify-between gap-6">
+				<div className="flex flex-col md:flex-row items-center justify-between gap-6">
 					<h1 className="text-2xl font-bold">Kitchen Dashboard</h1>
-					<div className="flex gap-4">
+					<div className="flex flex-col md:flex-row gap-4">
 						<div className="relative">
 							<Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
 							<Input
